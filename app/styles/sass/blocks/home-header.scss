@@ -19,3 +19,17 @@ body, html {
   display: flex;
   align-items: center;
 }
+
+.logo {
+  flex: 0 0 200px;
+}
+
+.menu-button-container {
+  flex: 0 0 200px;
+  text-align: right;
+}
+
+.top-line__decoration {
+  flex: 1 0 0;
+  text-align: center;
+}
