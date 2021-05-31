@@ -22,6 +22,21 @@ body, html {
 
 .logo {
   flex: 0 0 200px;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .5em;
+}
+
+.logo__img-wrapper {
+  width: $size;
+  height: $size;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu-button-container {
