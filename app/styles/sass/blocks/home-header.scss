@@ -39,9 +39,29 @@ body, html {
   justify-content: center;
 }
 
-.menu-button-container {
+.menu-button__container {
   flex: 0 0 200px;
   text-align: right;
+  position: relative;
+  height: $size;
+}
+
+.menu-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: $size;
+  height: $size;
+  background-color: #3c3c3c;
+  
+  background-image: url(../images/dist/bars-solid.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  transition: background .25s ease-out;
+  &:hover {
+    background-color: $accent;
+  }
 }
 
 .top-line__decoration {
