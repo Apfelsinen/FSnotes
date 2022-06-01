@@ -17,15 +17,12 @@ a {
 	font-size: 18px;
 }
 
-div {
-	background-color: green;
-
-	margin: 30px 50px 50px 40px;
-	padding: 10px 9px;
-	border: 3px solid black;
+.box-1 {
+	background-color: red;
+	margin-bottom: 100px;
 }
 
-.test {
-	margin: 50px 0px; /* на строчные элементы не работает, только на блочные */
-	width: 500px; /* also doesn't work, because it's inline */
+.box-2 {
+	background-color: blue;
+	margin-top: 40px;
 }
