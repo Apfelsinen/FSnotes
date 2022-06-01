@@ -24,3 +24,8 @@ div {
 	padding: 10px 9px;
 	border: 3px solid black;
 }
+
+.test {
+	margin: 50px 0px; /* на строчные элементы не работает, только на блочные */
+	width: 500px; /* also doesn't work, because it's inline */
+}
