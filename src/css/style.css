@@ -119,3 +119,14 @@ nav {
 	width: 1000px;
 	margin: 0 auto;
 }
+
+.section-map__title {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 36px;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
