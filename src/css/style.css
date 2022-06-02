@@ -120,6 +120,10 @@ nav {
 	margin: 0 auto;
 }
 
+.section-map {
+	margin-bottom: 20px;
+}
+
 .section-map__title {
 	margin-bottom: 20px;
 	text-align: center;
@@ -129,4 +133,29 @@ nav {
 iframe {
 	display: block;
 	margin: 0 auto;
+}
+
+/* .line {
+	border-top: 1px solid #999999;
+	width: 1024px;
+	margin: 0 auto;
+} */
+
+.line {
+	height: 1px;
+	background-color: #999;
+	width: 1024px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+/* hr {
+	bottom: none;
+	border-top: 1px solid #999;
+	width: 1024px;
+	margin: 0 auto;
+} */
+
+footer {
+	height: 80px;
 }
