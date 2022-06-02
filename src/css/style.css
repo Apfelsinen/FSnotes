@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #FFE2B0;
 }
@@ -64,5 +68,17 @@ nav {
 	height: 160px;
 	border: 1px solid black;
 	margin: 0 auto; /* горизонтальное выравнивание по центру. Не работает auto auto! Работает margin только с width, который должен быть прописан выше. */
-	
+	padding: 17px 0 0 28px;
+	text-align: left;
+}
+
+.section-about__title {
+	font-size: 36px;
+	margin: 0;
+	margin-bottom: 9px;
+}
+
+.section-about__text {
+	font-size: 12px;
+	margin: 0;
 }
