@@ -54,7 +54,19 @@ nav {
 	/* pushing down section-description__icon-box */
 	margin-bottom: 20px;
 }
-
+/* Позиционирование элементов
+	position: static
+	- Элемент ведет себя как обычно
+	position: relative
+	- Элемент можно позиционировать, ОТНОСИТЕЛЬНО своего места. Не вырывается из потока элементов.
+	position: absolute
+	- Вырывает элемент из потока.
+	Позиционируется от BODY, если родительскому элементу не задано свойство POSITION: RELATIVE.
+	position: fixed
+	- Фиксирует элемент при прокрутке в заданном месте.
+	position: sticky 
+	- Уогда докручиваем стр до элемена, у которого position: stiky, он становится fixed.
+*/
 .section-about__block {
 	width: 420px;
 	height: 190px;
